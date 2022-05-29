@@ -12,12 +12,12 @@ replace github.com/nixomose/nixomosegotools => ../nixomosegotools
 
 require (
 	github.com/ncw/directio v1.0.5
-	golang.org/x/sys v0.0.0-20220403020550-483a9cbc67c0
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
 )
 
 require (
-	github.com/nixomose/nixomosegotools v0.0.0-20220322001028-49b7a9e46605
-	github.com/nixomose/zosbd2goclient v0.0.0-20220326003838-cf8be100e949
+	github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407
+	github.com/nixomose/zosbd2goclient v0.0.0-20220529231946-704ab2897783
 )
 
 require (
