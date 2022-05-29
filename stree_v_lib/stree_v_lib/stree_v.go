@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LGPL-2.1
+// Copyright (C) 2021-2022 stu mark
+
 /* this is the go library port of stree_iv.
    actually we should probablhy call it stree_v because it will implement the transaction log somehow. */
 
