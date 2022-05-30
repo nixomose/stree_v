@@ -17,7 +17,7 @@ require (
 
 require (
 	github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407
-	github.com/nixomose/zosbd2goclient v0.0.0-20220529231946-704ab2897783
+	github.com/nixomose/zosbd2goclient v0.0.0-20220529234745-b751c582f005
 )
 
 require (
