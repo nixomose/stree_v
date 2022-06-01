@@ -3,10 +3,10 @@ github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NH
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/ncw/directio v1.0.5 h1:JSUBhdjEvVaJvOoyPAbcW0fnd0tvRXD76wEfZ1KcQz4=
 github.com/ncw/directio v1.0.5/go.mod h1:rX/pKEYkOXBGOggmcyJeJGloCkleSvphPx2eV3t6ROk=
-github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407 h1:YEPZvbm2ktNxhIM8VdpBoJmwOR/24UQFr90uktlxHNg=
-github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407/go.mod h1:ouXZ5rL/dDEfRYeUHM64ORv/pn7gOveaJNnFBbhjRmE=
-github.com/nixomose/zosbd2goclient v0.0.0-20220601010258-d4028771adc1 h1:jo+tcLl3cBEgS5tpjSAtHRD6pgdeajiWw5eVZ507Z+Y=
-github.com/nixomose/zosbd2goclient v0.0.0-20220601010258-d4028771adc1/go.mod h1:hQDzyr6PTC0I9FNOpizKmFmUlCskrMWmT1PMhYEwWcI=
+github.com/nixomose/nixomosegotools v0.0.0-20220601021307-4fef638de118 h1:P3rRcXQccmKLIL6M/Bf6CT++mlK5tLUNMQJTiABgI8o=
+github.com/nixomose/nixomosegotools v0.0.0-20220601021307-4fef638de118/go.mod h1:dBOlDmzSf3z2BaH8feoB7Prtq6du/1z8QXib2bNFLRE=
+github.com/nixomose/zosbd2goclient v0.0.0-20220601013206-758ca3d1fa3d h1:fD2Mqxc4MRwz243agkBJY57v0InejwtWdYqA3qz/A50=
+github.com/nixomose/zosbd2goclient v0.0.0-20220601013206-758ca3d1fa3d/go.mod h1:4cTyhXlcQU1qd2jvEJ/mQQLt8iLG5H0jAYt+Yz5ryj0=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
 github.com/spf13/cobra v1.4.0 h1:y+wJpx64xcgO1V+RcnwW0LEHxTKRi2ZDPSBjWnrg88Q=
 github.com/spf13/cobra v1.4.0/go.mod h1:Wo4iy3BUC+X2Fybo0PDqwJIv3dNRiZLHQymsfxlB84g=

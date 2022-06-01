@@ -17,8 +17,8 @@ require (
 
 require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407
-	github.com/nixomose/zosbd2goclient v0.0.0-20220601010258-d4028771adc1
+	github.com/nixomose/nixomosegotools v0.0.0-20220601021307-4fef638de118
+	github.com/nixomose/zosbd2goclient v0.0.0-20220601013206-758ca3d1fa3d
 	github.com/spf13/cobra v1.4.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )
