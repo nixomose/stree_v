@@ -1,16 +1,13 @@
 module github.com/nixomose/stree_v
 
-go 1.17
+go 1.18
 
 // replace github.com/nixomose/blockdevicelib => ../blockdevicelib
 
-//
 // replace github.com/nixomose/stree_v => ../stree_v
 
-//
 // replace github.com/nixomose/zosbd2goclient => ../zosbd2goclient
 
-//
 // replace github.com/nixomose/nixomosegotools => ../nixomosegotools
 
 require (
@@ -21,7 +18,7 @@ require (
 require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/nixomose/nixomosegotools v0.0.0-20220529231952-c38fcdca5407
-	github.com/nixomose/zosbd2goclient v0.0.0-20220531234136-1d6059846b15
+	github.com/nixomose/zosbd2goclient v0.0.0-20220601010258-d4028771adc1
 	github.com/spf13/cobra v1.4.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )
