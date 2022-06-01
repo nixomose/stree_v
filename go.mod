@@ -2,16 +2,16 @@ module github.com/nixomose/stree_v
 
 go 1.17
 
-replace github.com/nixomose/blockdevicelib => ../blockdevicelib
+// replace github.com/nixomose/blockdevicelib => ../blockdevicelib
 
 //
-replace github.com/nixomose/stree_v => ../stree_v
+// replace github.com/nixomose/stree_v => ../stree_v
 
 //
-replace github.com/nixomose/zosbd2goclient => ../zosbd2goclient
+// replace github.com/nixomose/zosbd2goclient => ../zosbd2goclient
 
 //
-replace github.com/nixomose/nixomosegotools => ../nixomosegotools
+// replace github.com/nixomose/nixomosegotools => ../nixomosegotools
 
 require (
 	github.com/ncw/directio v1.0.5
