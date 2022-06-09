@@ -74,10 +74,6 @@ type Stree_node struct {
 	max_value_length uint32
 }
 
-// // verify that Stree_node implements Stree_node_interface
-// var _ Stree_node_interface = &Stree_node{}
-// var _ Stree_node_interface = (*Stree_node)(nil)
-
 func New_Stree_node(l *tools.Nixomosetools_logger, Key string, Val []byte, Max_key_length uint32,
 	Max_value_length uint32, Additional_offspring_nodes uint32) *Stree_node {
 
@@ -201,7 +197,7 @@ func (this *Stree_node) Set_offspring_pos(offspring_pos uint32, node_pos uint32)
 }
 
 func (this *Stree_node) Is_offspring() bool {
-	/* 6/22/2021 the node's offspring variable is non null of we're the mother node because the mother has a list
+	/* 6/22/2021 the node's offspring variable is non null if we're the mother node because the mother has a list
 	 * of offspring, and the offspring do not. However, we missed a case where if the whole stree is not set up
 	 * to use offspring, then offspring is null in the mother node as well. But the node has no concept of
 	 * the state of the stree it is part of, so all callers of this function have to check for themselves.
@@ -246,10 +242,13 @@ func (this *Stree_node) Serialized_size(key_length uint32, value_length uint32) 
 		value_length + // space needed for value
 		4 // space needed to store the number of items in the offspring array (or 0 or max_int)
 
+	/* this is interesting, this gives you the serialized size of THIS node, but if you want to know
+	how to size the biggest node you're going to ever need, you must call this with a mother node
+	otherwise you'll get the wrong size. */
+	// space needed for offspring array, if any
 	if this.offspring != nil {
 		retval += uint32((4 * len(*this.offspring)))
 	}
-	// space needed for offspring array, if any
 	return retval
 }
 
