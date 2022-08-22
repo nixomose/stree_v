@@ -550,9 +550,9 @@ func (this *Stree_v) perform_new_value_write(mother_node *stree_v_node.Stree_nod
 		 * I just checked it doesn't so we have to do that here, but I think that's it.
 		 * 11/20/2020 so now physically_delete_one does clear out the mother's offspring so we can probably skip this. */
 
-		Ret, mother_node_resp := this.Node_load(mother_node_pos)
-		if ret != nil {
-			return Ret
+		reta, mother_node_resp := this.Node_load(mother_node_pos)
+		if reta != nil {
+			return reta
 		}
 
 		mother_node = mother_node_resp
